@@ -1,0 +1,53 @@
+.signs {width: 80px;
+        height: 80px;
+        background: rgb(105, 10, 194);
+        display: inline-block;
+        text-align: center;
+        line-height: 60px;
+        color: red;
+        }
+        
+  .btn {
+        width: 60px;
+        height: 60px;
+        background: rgb(207, 141, 18);
+        display: inline-block;
+        text-align: center;
+        line-height: 60px;
+        user-select: none;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+        border-width: medium;
+    }
+ 
+    .btn:hover {
+        background: rgb(99, 25, 95, 9);
+        color: red;
+    }
+ 
+    #calc-wrap {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        background: none;
+    }
+    
+ 
+    #calc {
+        width: 260px;
+        display: inline-block;
+        border-style: solid;
+        border-color: rgb(27, 7, 27);
+        background: rgb(12, 1, 12);
+    }
+ 
+    #inputVal {
+        width: 100%;
+        border: 0;
+        font-size: 20px;
+        resize: vertical;
+        background: tomato (248, 248, 248);
+        border-color: rgb(192, 53, 53);
+        border-style: solid;
+        border-width: medium;
+    }
